@@ -552,7 +552,7 @@ ndpi_mt_check(const char *tablename,
 {
 	const struct xt_ndpi_mtinfo *info = matchinfo;
 
-	if (NDPI_BITMASK_IS_ZERO(info->flags)){
+	if (NDPI_BITMASK_IS_EMPTY(info->flags)){
 		pr_info("None selected protocol.\n");
 		return false;
 	}
@@ -568,7 +568,7 @@ ndpi_mt_check(const struct xt_mtchk_param *par)
 {
 	const struct xt_ndpi_mtinfo *info = par->matchinfo;
 
-	if (NDPI_BITMASK_IS_ZERO(info->flags)){
+	if (NDPI_BITMASK_IS_EMPTY(info->flags)){
 		pr_info("None selected protocol.\n");
 		return false;
 	}
@@ -583,7 +583,7 @@ ndpi_mt_check(const struct xt_mtchk_param *par)
 {
 	const struct xt_ndpi_mtinfo *info = par->matchinfo;
 
-	if (NDPI_BITMASK_IS_ZERO(info->flags)){
+	if (NDPI_BITMASK_IS_EMPTY(info->flags)){
 		pr_info("None selected protocol.\n");
 		return -EINVAL;
 	}
