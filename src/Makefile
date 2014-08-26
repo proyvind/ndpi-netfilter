@@ -142,7 +142,7 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/xdmcp.o \
 		${NDPI_PRO}/yahoo.o \
 		${NDPI_PRO}/zattoo.o \
-		${NDPI_PRO}/zmq.o \
+		${NDPI_PRO}/zmq.o
 
 all:
 	if test -d ${NDPI_SRC}; then \
