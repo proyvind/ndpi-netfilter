@@ -39,7 +39,7 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/fasttrack.o \
 		${NDPI_PRO}/fiesta.o \
 		${NDPI_PRO}/filetopia.o \
-		${NDPI_PRO}/flash.o \
+		${NDPI_PRO}/attic/flash.o \
 		${NDPI_PRO}/florensia.o \
 		${NDPI_PRO}/ftp_control.o \
 		${NDPI_PRO}/ftp_data.o \
@@ -63,6 +63,7 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/mail_imap.o \
 		${NDPI_PRO}/mail_pop.o \
 		${NDPI_PRO}/mail_smtp.o \
+		${NDPI_PRO}/attic/manolito.o \
 		${NDPI_PRO}/maplestory.o \
 		${NDPI_PRO}/mdns.o \
 		${NDPI_PRO}/meebo.o \
@@ -84,7 +85,7 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/oscar.o \
 		${NDPI_PRO}/pando.o \
 		${NDPI_PRO}/pcanywhere.o \
-		${NDPI_PRO}/popo.o \
+		${NDPI_PRO}/attic/popo.o \
 		${NDPI_PRO}/postgres.o \
 		${NDPI_PRO}/pplive.o \
 		${NDPI_PRO}/ppstream.o \
@@ -98,6 +99,7 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/rtcp.o \
 		${NDPI_PRO}/rtp.o \
 		${NDPI_PRO}/rtsp.o \
+		${NDPI_PRO}/attic/secondlife.o \
 		${NDPI_PRO}/sflow.o \
 		${NDPI_PRO}/shoutcast.o \
 		${NDPI_PRO}/sip.o \
