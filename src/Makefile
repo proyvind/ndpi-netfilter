@@ -37,7 +37,6 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/dropbox.o \
 		${NDPI_PRO}/edonkey.o \
 		${NDPI_PRO}/fasttrack.o \
-		${NDPI_PRO}/feidian.o \
 		${NDPI_PRO}/fiesta.o \
 		${NDPI_PRO}/filetopia.o \
 		${NDPI_PRO}/flash.o \
