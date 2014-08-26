@@ -99,7 +99,6 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/rtcp.o \
 		${NDPI_PRO}/rtp.o \
 		${NDPI_PRO}/rtsp.o \
-		${NDPI_PRO}/attic/secondlife.o \
 		${NDPI_PRO}/sflow.o \
 		${NDPI_PRO}/shoutcast.o \
 		${NDPI_PRO}/sip.o \
