@@ -39,7 +39,6 @@ xt_ndpi-y := main.o ${NDPI_SRC}/lib/ndpi_main.o \
 		${NDPI_PRO}/fasttrack.o \
 		${NDPI_PRO}/fiesta.o \
 		${NDPI_PRO}/filetopia.o \
-		${NDPI_PRO}/attic/flash.o \
 		${NDPI_PRO}/florensia.o \
 		${NDPI_PRO}/ftp_control.o \
 		${NDPI_PRO}/ftp_data.o \
